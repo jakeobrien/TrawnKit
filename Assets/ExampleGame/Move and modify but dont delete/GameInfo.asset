@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5e848ad97c44290aac393733f9178e, type: 3}
+  m_Name: GameInfo
+  m_EditorClassIdentifier: 
+  gameName: Example Game
+  sceneToLoad:
+    Scene: {fileID: 102900000, guid: ac6d73023c2b747d9ae2ec3b6add5432, type: 3}
+    SceneName: Game
+    sceneIndex: 3
+    sceneEnabled: 1
+  minNumberPlayers: 2
+  maxNumberPlayers: 4
+  showScores: 1
+  instructions:
+  - Example instructions text
+  - Set this text in ExampleGame/GameInfo->Instructions
